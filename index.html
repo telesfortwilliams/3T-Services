@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>3T Services Technology</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="images/logo.png" alt="3T Services Technology" class="logo">
+    </div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li data-i18n="nav_home">Accueil</li>
+        <li data-i18n="nav_services">Nos Services</li>
+        <li data-i18n="nav_about">À propos</li>
+        <li data-i18n="nav_contact">Contact</li>
+      </ul>
+    </nav>
+    <div class="controls">
+      <select id="lang" aria-label="Choisir la langue">
+        <option value="fr">FR</option>
+        <option value="en">EN</option>
+        <option value="es">ES</option>
+        <option value="pt">PT</option>
+        <option value="ca">CA</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-content">
+      <h1 data-i18n="hero_title">Innovation et sécurité pour votre croissance</h1>
+      <p data-i18n="hero_sub">Solutions sur mesure : maintenance, cybersécurité, conseils.</p>
+      <a class="cta" href="#services" data-i18n="hero_cta">Découvrir nos services</a>
+    </div>
+  </section>
+
+  <section id="services" class="services container">
+    <h2 data-i18n="services_title">Nos Services</h2>
+    <div class="services-grid">
+      <article class="service-card">
+        <img src="images/icon_maintenance.png" alt="" class="service-icon">
+        <h3 data-i18n="srv_maintenance">Maintenance</h3>
+        <p data-i18n="srv_maintenance_desc">Assurer la continuité et la performance de vos systèmes.</p>
+      </article>
+      <article class="service-card">
+        <img src="images/icon_cyber.png" alt="" class="service-icon">
+        <h3 data-i18n="srv_cyber">Cyber espace</h3>
+        <p data-i18n="srv_cyber_desc">Protection avancée contre les menaces numériques.</p>
+      </article>
+      <article class="service-card">
+        <img src="images/icon_consulting.png" alt="" class="service-icon">
+        <h3 data-i18n="srv_consulting">Conseils</h3>
+        <p data-i18n="srv_consulting_desc">Accompagnement stratégique pour vos projets technologiques.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 3T Services Technology</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
